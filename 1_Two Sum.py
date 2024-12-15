@@ -13,3 +13,5 @@ class Solution(object):
                 return [prevMap[diff], i]
             prevMap[n] = i
         return
+    
+# enumerate(nums) => This function returns both index and the value of each element in the list nums.
