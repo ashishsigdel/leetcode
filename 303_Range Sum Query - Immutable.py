@@ -1,3 +1,5 @@
+from typing import List
+
 class NumArray:
 
     def __init__(self, nums: List[int]):
@@ -14,6 +16,7 @@ class NumArray:
 
 
 # Your NumArray object will be instantiated and called as such:
+
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(left,right)
 
